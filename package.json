@@ -4,7 +4,7 @@
   "description": "Get a curated string from the YouTube title",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/angelkar/youtube-track-title-extractor/issues"
   },
-  "homepage": "https://github.com/angelkar/youtube-track-title-extractor#readme"
+  "homepage": "https://github.com/angelkar/youtube-track-title-extractor#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0"
+  }
 }
