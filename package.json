@@ -1,15 +1,17 @@
 {
   "name": "youtube-track-title-extractor",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Get a curated string from the YouTube title",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha src/index.test.js",
-    "watch": "mocha src/index.test.js -w"
+    "watch": "mocha src/index.test.js -w",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelkar/youtube-track-title-extractor.git"
+    "url": "https://github.com/angelkar/youtube-track-title-extractor.git"
   },
   "keywords": [
     "youtube",
@@ -23,6 +25,8 @@
   "homepage": "https://github.com/angelkar/youtube-track-title-extractor#readme",
   "devDependencies": {
     "chai": "4.1.2",
-    "mocha": "5.2.0"
+    "mocha": "5.2.0",
+    "travis-deploy-once": "^5.0.0",
+    "semantic-release": "^15.5.0"
   }
 }
