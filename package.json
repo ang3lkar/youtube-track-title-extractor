@@ -1,0 +1,23 @@
+{
+  "name": "youtube-track-title-extractor",
+  "version": "1.0.0",
+  "description": "Get a curated string from the YouTube title",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelkar/youtube-track-title-extractor.git"
+  },
+  "keywords": [
+    "youtube",
+    "title"
+  ],
+  "author": "Angelos Karagkiozidis <angelkar@gmail.com> (https://github.com/angelkar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelkar/youtube-track-title-extractor/issues"
+  },
+  "homepage": "https://github.com/angelkar/youtube-track-title-extractor#readme"
+}
