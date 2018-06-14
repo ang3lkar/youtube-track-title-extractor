@@ -1,8 +1,11 @@
 var expect = require('chai').expect;
-var getTitle = require('./index');
+var util = require('./index');
 
 describe('getTitle', function() {
-  it('should work', function(){
-    expect(true).to.be.true;
+
+  var sanitizedTitle = "The Beatles - Come Together";
+
+  it('should remove the Youtube suffix', function(){
+    expect(sanitizedTitle).to.be.equal(util.getTitle('The Beatles - Come Together - Youtube'));
   });
 });
