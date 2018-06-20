@@ -1,4 +1,4 @@
-var getTitle = function(dirtyTitle) {
+const getTitle = (dirtyTitle) => {
     var result = dirtyTitle.split('- Youtube')[0].trim();
 
     // remove parentheses at the end, eg. Artist - Track (Official Music Video), (lyrics), (HQ) etc.
@@ -28,6 +28,4 @@ var getTitle = function(dirtyTitle) {
     return result;
 };
 
-module.exports = {
-  getTitle: getTitle
-};
+export { getTitle };
