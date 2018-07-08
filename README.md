@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/angelkar/youtube-track-title-extractor.svg?branch=master)](https://travis-ci.com/angelkar/youtube-track-title-extractor)
 [![codecov](https://codecov.io/gh/angelkar/youtube-track-title-extractor/branch/master/graph/badge.svg)](https://codecov.io/gh/angelkar/youtube-track-title-extractor)
+[![npm](https://img.shields.io/npm/v/youtube-track-title-extractor.svg)](https://npmjs.com/package/youtube-track-title-extractor)
 
 Youtube titles come in a rich variety of ways:
 ```
